@@ -160,12 +160,12 @@
           }
         },
         "samplingOptions": {
-          "skipSamplesWithoutAnnotation": "false",
+          "skipSamplesWithoutAnnotation": "true",
           "maximumSamplesPerSecond": "30"
           },
         "inputs": [
           {
-            "nodeName": "rtspSource",
+            "nodeName": "motionDetection",
             "outputSelectors": [
             {
               "property": "mediaType",
